@@ -1,5 +1,10 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+    
+    <%@ page import = "com.javaex.gbController.GbController" %>
+    
+    <% int a = (int)request.getAttribute("no");%>
+    
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,6 +18,7 @@
 				<td>비밀번호</td>
 				<td><input type="password" name="password"></td>
 				<input type="hidden" name="action" value="delete2">
+				<input type="hidden" name="no" value="<%=a%>">
 				<td><button type="submit">삭제</button></td>
 			</tr>
 		</table>
