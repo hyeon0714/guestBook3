@@ -1,4 +1,4 @@
-package com.javaex.gbVo;
+package com.javaex.vo;
 
 public class GbVo {
 	

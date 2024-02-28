@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
     
-    <%@ page import = "com.javaex.gbController.GbController" %>
+    <%@ page import = "com.javaex.controller.GbController" %>
     
     <% int a = (int)request.getAttribute("no");%>
     

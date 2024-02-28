@@ -1,4 +1,4 @@
-package com.javaex.gbController;
+package com.javaex.controller;
 
 import java.io.IOException;
 import java.util.List;
@@ -10,9 +10,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.javaex.gbDao.GbDao;
-import com.javaex.gbVo.GbVo;
+import com.javaex.dao.GbDao;
 import com.javaex.util.WebUtil;
+import com.javaex.vo.GbVo;
 
 
 @WebServlet("/gbc")
